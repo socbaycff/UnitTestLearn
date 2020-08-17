@@ -13,11 +13,26 @@
 		8A4CEDF324E8E4440056F5BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4CEDF124E8E4440056F5BE /* Main.storyboard */; };
 		8A4CEDF524E8E4450056F5BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4CEDF424E8E4450056F5BE /* Assets.xcassets */; };
 		8A4CEDF824E8E4450056F5BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4CEDF624E8E4450056F5BE /* LaunchScreen.storyboard */; };
-		8A4CEE0324E8E4450056F5BE /* UnitTestLearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4CEE0224E8E4450056F5BE /* UnitTestLearnTests.swift */; };
+		8AE7212024EAB82B000DDEFD /* UnitTestLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7211F24EAB82B000DDEFD /* UnitTestLearnUITests.swift */; };
+		8AE7212824EAB895000DDEFD /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7212724EAB895000DDEFD /* LoginProtocol.swift */; };
+		8AE7212A24EAB8A5000DDEFD /* DefaultLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7212924EAB8A5000DDEFD /* DefaultLogin.swift */; };
+		8AE7212C24EAB9D7000DDEFD /* DefaultLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7212B24EAB9D7000DDEFD /* DefaultLoginTests.swift */; };
+		8AE7212E24EABA88000DDEFD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7212D24EABA88000DDEFD /* ViewModel.swift */; };
+		8AE7213024EABD90000DDEFD /* FakeLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7212F24EABD90000DDEFD /* FakeLoginService.swift */; };
+		8AE7213224EAC0C0000DDEFD /* TinhToanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7213124EAC0C0000DDEFD /* TinhToanService.swift */; };
+		8AE7213424EAC3D8000DDEFD /* DefaultTinhToan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7213324EAC3D8000DDEFD /* DefaultTinhToan.swift */; };
+		8AE7213624EAC4C6000DDEFD /* FakeTinhToan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7213524EAC4C6000DDEFD /* FakeTinhToan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		8A4CEDFF24E8E4450056F5BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A4CEDE024E8E4440056F5BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A4CEDE724E8E4440056F5BE;
+			remoteInfo = UnitTestLearn;
+		};
+		8AE7212224EAB82B000DDEFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8A4CEDE024E8E4440056F5BE /* Project object */;
 			proxyType = 1;
@@ -36,8 +51,18 @@
 		8A4CEDF724E8E4450056F5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A4CEDF924E8E4450056F5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A4CEDFE24E8E4450056F5BE /* UnitTestLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A4CEE0224E8E4450056F5BE /* UnitTestLearnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestLearnTests.swift; sourceTree = "<group>"; };
 		8A4CEE0424E8E4450056F5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE7211D24EAB82B000DDEFD /* UnitTestLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE7211F24EAB82B000DDEFD /* UnitTestLearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestLearnUITests.swift; sourceTree = "<group>"; };
+		8AE7212124EAB82B000DDEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE7212724EAB895000DDEFD /* LoginProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocol.swift; sourceTree = "<group>"; };
+		8AE7212924EAB8A5000DDEFD /* DefaultLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLogin.swift; sourceTree = "<group>"; };
+		8AE7212B24EAB9D7000DDEFD /* DefaultLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLoginTests.swift; sourceTree = "<group>"; };
+		8AE7212D24EABA88000DDEFD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8AE7212F24EABD90000DDEFD /* FakeLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeLoginService.swift; sourceTree = "<group>"; };
+		8AE7213124EAC0C0000DDEFD /* TinhToanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinhToanService.swift; sourceTree = "<group>"; };
+		8AE7213324EAC3D8000DDEFD /* DefaultTinhToan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTinhToan.swift; sourceTree = "<group>"; };
+		8AE7213524EAC4C6000DDEFD /* FakeTinhToan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeTinhToan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +80,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8AE7211A24EAB82B000DDEFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +95,7 @@
 			children = (
 				8A4CEDEA24E8E4440056F5BE /* UnitTestLearn */,
 				8A4CEE0124E8E4450056F5BE /* UnitTestLearnTests */,
+				8AE7211E24EAB82B000DDEFD /* UnitTestLearnUITests */,
 				8A4CEDE924E8E4440056F5BE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +105,7 @@
 			children = (
 				8A4CEDE824E8E4440056F5BE /* UnitTestLearn.app */,
 				8A4CEDFE24E8E4450056F5BE /* UnitTestLearnTests.xctest */,
+				8AE7211D24EAB82B000DDEFD /* UnitTestLearnUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +120,11 @@
 				8A4CEDF424E8E4450056F5BE /* Assets.xcassets */,
 				8A4CEDF624E8E4450056F5BE /* LaunchScreen.storyboard */,
 				8A4CEDF924E8E4450056F5BE /* Info.plist */,
+				8AE7212724EAB895000DDEFD /* LoginProtocol.swift */,
+				8AE7212924EAB8A5000DDEFD /* DefaultLogin.swift */,
+				8AE7212D24EABA88000DDEFD /* ViewModel.swift */,
+				8AE7213124EAC0C0000DDEFD /* TinhToanService.swift */,
+				8AE7213324EAC3D8000DDEFD /* DefaultTinhToan.swift */,
 			);
 			path = UnitTestLearn;
 			sourceTree = "<group>";
@@ -93,10 +132,21 @@
 		8A4CEE0124E8E4450056F5BE /* UnitTestLearnTests */ = {
 			isa = PBXGroup;
 			children = (
-				8A4CEE0224E8E4450056F5BE /* UnitTestLearnTests.swift */,
 				8A4CEE0424E8E4450056F5BE /* Info.plist */,
+				8AE7212B24EAB9D7000DDEFD /* DefaultLoginTests.swift */,
+				8AE7212F24EABD90000DDEFD /* FakeLoginService.swift */,
+				8AE7213524EAC4C6000DDEFD /* FakeTinhToan.swift */,
 			);
 			path = UnitTestLearnTests;
+			sourceTree = "<group>";
+		};
+		8AE7211E24EAB82B000DDEFD /* UnitTestLearnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AE7211F24EAB82B000DDEFD /* UnitTestLearnUITests.swift */,
+				8AE7212124EAB82B000DDEFD /* Info.plist */,
+			);
+			path = UnitTestLearnUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +187,24 @@
 			productReference = 8A4CEDFE24E8E4450056F5BE /* UnitTestLearnTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		8AE7211C24EAB82B000DDEFD /* UnitTestLearnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE7212624EAB82B000DDEFD /* Build configuration list for PBXNativeTarget "UnitTestLearnUITests" */;
+			buildPhases = (
+				8AE7211924EAB82B000DDEFD /* Sources */,
+				8AE7211A24EAB82B000DDEFD /* Frameworks */,
+				8AE7211B24EAB82B000DDEFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AE7212324EAB82B000DDEFD /* PBXTargetDependency */,
+			);
+			name = UnitTestLearnUITests;
+			productName = UnitTestLearnUITests;
+			productReference = 8AE7211D24EAB82B000DDEFD /* UnitTestLearnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,6 +219,10 @@
 						CreatedOnToolsVersion = 11.6;
 					};
 					8A4CEDFD24E8E4450056F5BE = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 8A4CEDE724E8E4440056F5BE;
+					};
+					8AE7211C24EAB82B000DDEFD = {
 						CreatedOnToolsVersion = 11.6;
 						TestTargetID = 8A4CEDE724E8E4440056F5BE;
 					};
@@ -171,6 +243,7 @@
 			targets = (
 				8A4CEDE724E8E4440056F5BE /* UnitTestLearn */,
 				8A4CEDFD24E8E4450056F5BE /* UnitTestLearnTests */,
+				8AE7211C24EAB82B000DDEFD /* UnitTestLearnUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -193,6 +266,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8AE7211B24EAB82B000DDEFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -201,8 +281,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A4CEDF024E8E4440056F5BE /* ViewController.swift in Sources */,
+				8AE7213224EAC0C0000DDEFD /* TinhToanService.swift in Sources */,
+				8AE7213424EAC3D8000DDEFD /* DefaultTinhToan.swift in Sources */,
+				8AE7212824EAB895000DDEFD /* LoginProtocol.swift in Sources */,
 				8A4CEDEC24E8E4440056F5BE /* AppDelegate.swift in Sources */,
 				8A4CEDEE24E8E4440056F5BE /* SceneDelegate.swift in Sources */,
+				8AE7212E24EABA88000DDEFD /* ViewModel.swift in Sources */,
+				8AE7212A24EAB8A5000DDEFD /* DefaultLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +295,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A4CEE0324E8E4450056F5BE /* UnitTestLearnTests.swift in Sources */,
+				8AE7213624EAC4C6000DDEFD /* FakeTinhToan.swift in Sources */,
+				8AE7213024EABD90000DDEFD /* FakeLoginService.swift in Sources */,
+				8AE7212C24EAB9D7000DDEFD /* DefaultLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE7211924EAB82B000DDEFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE7212024EAB82B000DDEFD /* UnitTestLearnUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +316,11 @@
 			isa = PBXTargetDependency;
 			target = 8A4CEDE724E8E4440056F5BE /* UnitTestLearn */;
 			targetProxy = 8A4CEDFF24E8E4450056F5BE /* PBXContainerItemProxy */;
+		};
+		8AE7212324EAB82B000DDEFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A4CEDE724E8E4440056F5BE /* UnitTestLearn */;
+			targetProxy = 8AE7212224EAB82B000DDEFD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -438,6 +538,44 @@
 			};
 			name = Release;
 		};
+		8AE7212424EAB82B000DDEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HNHR4AUAH;
+				INFOPLIST_FILE = UnitTestLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ptithcm.UnitTestLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnitTestLearn;
+			};
+			name = Debug;
+		};
+		8AE7212524EAB82B000DDEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HNHR4AUAH;
+				INFOPLIST_FILE = UnitTestLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ptithcm.UnitTestLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnitTestLearn;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -464,6 +602,15 @@
 			buildConfigurations = (
 				8A4CEE0B24E8E4450056F5BE /* Debug */,
 				8A4CEE0C24E8E4450056F5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AE7212624EAB82B000DDEFD /* Build configuration list for PBXNativeTarget "UnitTestLearnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE7212424EAB82B000DDEFD /* Debug */,
+				8AE7212524EAB82B000DDEFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
